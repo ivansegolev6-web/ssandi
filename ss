@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сандевистан — Легенда Найт-Сити</title>
+    <style>
+        /* Базовые стили для читаемости и адаптивности */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+        }
+        header {
+            background: linear-gradient(90deg, #ff003c, #00f0ff);
+            color: #000;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #1a1a1a;
+            padding: 0.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 2px solid #ff003c;
+        }
+        nav a {
+            color: #00f0ff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff003c;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 240, 255, 0.1);
+        }
+        h2 {
+            color: #ff003c;
+            border-bottom: 2px solid #00f0ff;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #00f0ff;
+            margin-top: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00f0ff;
+            border-radius: 8px;
+            display: block;
+            margin: 15px auto;
+        }
+        .highlight {
+            color: #ff003c;
+            font-weight: bold;
+        }
+        blockquote {
+            background-color: #0d0d0d;
+            border-left: 5px solid #ff003c;
+            margin: 20px 0;
+            padding: 10px 20px;
+            font-style: italic;
+            color: #b0b0b0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-top: 2px solid #ff003c;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #00f0ff;
+            text-decoration: none;
+        }
+        /* Адаптивность для мобильных */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            nav a { display: block; margin: 5px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Сандевистан</h1>
+        <p>Киберпсихоз в чистом виде. Легенда Найт-Сити.</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Введение</a>
+        <a href="#what-is">Что это?</a>
+        <a href="#abilities">Способности</a>
+        <a href="#guide">Гайд</a>
+    </nav>
+
+    <main>
+        <!-- Раздел 1: Введение (Уровень 1) -->
+        <section id="intro">
+            <h2>Введение в Сандевистан</h2>
+            <article>
+                <p><mark>Сандевистан</mark> (Sandevistan) — это нейромодуль, который устанавливается в нервную систему и позволяет пользователю значительно ускорять восприятие времени и реакцию. Это не просто имплант, это <strong>стиль жизни</strong> для тех, кто хочет быть быстрее всех в Найт-Сити.</p>
+                <p>Впервые технология была разработана корпорацией <em>Arasaka</em>, но позже распространилась по всему черному рынку. Однако, у всего есть цена...</p>
+            </article>
+        </section>
+
+        <!-- Раздел 2: Что это? (Уровень 1) -->
+        <section id="what-is">
+            <h2>Что такое Сандевистан?</h2>
+            
+            <!-- Подраздел (Уровень 2) -->
+            <article>
+                <h3>Принцип работы</h3>
+                <p>Имплант подключается напрямую к спинному мозгу и перехватывает сигналы, идущие от мозга к мышцам. В момент активации:</p>
+                <ul>
+                    <li>Время для пользователя замедляется в <span class="highlight">2-3 раза</span>.</li>
+                    <li>Реакция становится мгновенной.</li>
+                    <li>Мир вокруг превращается в размытое пятно.</li>
+                </ul>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Sandevistan_implant.jpg/640px-Sandevistan_implant.jpg" alt="Имплант Сандевистан в разрезе" title="Сандевистан — нейромодуль">
+            </article>
+
+            <!-- Подраздел (Уровень 2) -->
+            <article>
+                <h3>Типы имплантов</h3>
+                <p>На рынке представлено несколько моделей. Вот основные:</p>
+                <ol>
+                    <li><strong>Zetatech Sandevistan</strong> — бюджетный вариант, подходит для новичков.</li>
+                    <li><strong>Dynalar Sandevistan</strong> — сбалансированная модель.</li>
+                    <li><strong>QianT Sandevistan</strong> — элитная серия, требует высокой выносливости.</li>
+                    <li><strong>Militech Sandevistan</strong> — военная версия, максимальная скорость.</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- Раздел 3: Способности (Уровень 1) -->
+        <section id="abilities">
+            <h2>Способности и риски</h2>
+            
+            <!-- Подраздел (Уровень 2) -->
+            <article>
+                <h3>Что ты получаешь</h3>
+                <p>Сандевистан превращает обычного наемника в машину для убийства. Ты можешь уклоняться от пуль, наносить удары быстрее, чем противник успевает моргнуть.</p>
+                <blockquote>
+                    "Когда я активирую Сандевистан, я вижу мир как в замедленной съемке. Это... опьяняет." — <em>Дэвид Мартинес</em>
+                </blockquote>
+            </article>
+
+            <!-- Подраздел (Уровень 2) -->
+            <article>
+                <h3>Побочные эффекты</h3>
+                <p>Но не все так радужно. Частое использование импланта ведет к <strong>киберпсихозу</strong>. Симптомы:</p>
+                <ul>
+                    <li>Тремор конечностей.</li>
+                    <li>Галлюцинации.</li>
+                    <li>Потеря связи с реальностью.</li>
+                    <li>Агрессия по отношению к окружающим.</li>
+                </ul>
+                <p>Поэтому крайне важно следить за уровнем <abbr title="Humanity Index">HI</abbr>.</p>
+            </article>
+        </section>
+
+        <!-- Раздел 4: Гайд (Уровень 1) -->
+        <section id="guide">
+            <h2>Мини-гайд: как выжить с Сандевистаном</h2>
+            <article>
+                <h3>Советы для наемника</h3>
+                <p>Если ты решился на установку, вот несколько рекомендаций:</p>
+                <ol>
+                    <li><strong>Прокачай тело.</strong> Имплант требует много энергии.</li>
+                    <li><strong>Купи хорошую аптечку.</strong> Ты будешь часто получать урон.</li>
+                    <li><strong>Не используй его дома.</strong> Это пугает соседей.</li>
+                </ol>
+                <p>Больше информации можно найти на <a href="https://cyberpunk.fandom.com/wiki/Sandevistan" target="_blank" rel="noopener noreferrer">официальной вики</a>.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Сайт создан в учебных целях. Автор: <strong>Щёголев Иван</strong>.</p>
+        <p>&copy; 2026. Найт-Сити ждет тебя.</p>
+    </footer>
+
+</body>
+</html>
